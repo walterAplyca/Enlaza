@@ -6,7 +6,7 @@ export default function ProjectSidebar({ project }) {
         <aside className="lg:sticky lg:top-6 space-y-6">
             {/* Project Card */}
             <div className="bg-white rounded-xl shadow-sm border border-gray-100 overflow-hidden">
-                <div className="bg-gradient-to-r from-[#1aa04b] to-[#148a3d] px-5 py-4">
+                <div className="bg-[#1aa04b] px-5 py-4">
                     <h2 className="text-white font-semibold text-lg">Proyecto</h2>
                 </div>
 

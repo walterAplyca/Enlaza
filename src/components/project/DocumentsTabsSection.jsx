@@ -158,7 +158,7 @@ export default function DocumentsTabsSection() {
     return (
         <section className="mb-10">
             {/* Highlighted Section Header */}
-            <div className="bg-gradient-to-r from-[#1aa04b] to-[#148a3d] rounded-t-2xl p-6">
+            <div className="bg-[#1aa04b] rounded-t-2xl p-6">
                 <div className="flex items-center gap-3">
                     <div className="p-3 bg-white/20 rounded-xl backdrop-blur-sm">
                         <AlertCircle className="w-6 h-6 text-white" />
@@ -182,8 +182,8 @@ export default function DocumentsTabsSection() {
                                     key={tab.id}
                                     onClick={() => setActiveTab(tab.id)}
                                     className={`flex items-center gap-2 px-6 py-4 text-sm font-semibold border-b-3 transition-all whitespace-nowrap ${isActive
-                                            ? 'border-b-4 border-[#1aa04b] text-[#1aa04b] bg-white'
-                                            : 'border-b-4 border-transparent text-gray-600 hover:text-gray-900 hover:bg-[#e7e7e7]'
+                                        ? 'border-b-4 border-[#1aa04b] text-[#1aa04b] bg-white'
+                                        : 'border-b-4 border-transparent text-gray-600 hover:text-gray-900 hover:bg-[#e7e7e7]'
                                         }`}
                                 >
                                     <Icon className="w-5 h-5" />
