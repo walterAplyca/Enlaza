@@ -73,11 +73,7 @@ export default function ProgressSection() {
 
             {/* Map Container */}
             <div className="relative rounded-xl overflow-hidden shadow-lg border border-gray-200">
-                <div className="absolute top-4 right-4 z-10 flex gap-2">
-                    <button className="px-3 py-1.5 bg-white/95 backdrop-blur-sm text-sm font-medium text-gray-700 rounded-lg shadow-md hover:bg-white transition-colors">
-                        Ver a pantalla completa
-                    </button>
-                </div>
+
                 <img
                     src="https://images.unsplash.com/photo-1524661135-423995f22d0b?w=1200&h=600&fit=crop"
                     alt="Mapa de avance del proyecto"
